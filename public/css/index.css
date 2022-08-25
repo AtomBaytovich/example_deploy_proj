@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    background: url(../img/7.jpg) no-repeat 50% fixed;
+    background-size: cover !important;
+    overflow: hidden;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* закончились обнуляющие стили */
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.main {
+    max-width: 300px;
+    padding: 0 20px 30px 20px;
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: #1e1e1e66;
+    backdrop-filter: blur(10px);
+    box-shadow: #04040496 1px 1px 3px 2px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.years {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 18px;
+}
+
+.desc p {
+    font-size: 17px;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+
+.contact-list {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.socials-buttons {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.socials-link {
+    margin-top: 20px;
+}
+
+
+/* АВАТАР */
+.avatar {
+    height: 180px;
+}
+
+.avatar img {
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+    width: 220px;
+    border-radius: 60px;
+    box-shadow: #8a8a8a96 1px 1px 3px 2px;
+    position: relative;
+    top: -60px;
+}
+
+/* СОЦИАЛЬНЫЙ БЛОК */
+
+.social-block {
+    padding: 14px 4px 4px 4px;
+    margin: 4px;
+    display: flex;
+    background: var(--back-color);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 256px;
+    text-align: center;
+    text-decoration: none;
+    transition: .2s;
+    border: var(--border);
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: rgba(210, 120, 120, 0.59) 1px 1px 2px 2px;
+}
+
+.social-block img {
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 8px;
+}
+
+.social-block:hover {
+    box-shadow: rgba(193, 152, 152, 0.59) 1px 1px 2px 2px;
+}
+
+/* LINKS BLOCK */
+
+.block-link {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    border-radius: 8px;
+    transition: .2s;
+    box-shadow: rgba(210, 120, 120, 0.59) 1px 1px 2px 2px;
+}
+
+.block-link a {
+    padding: 8px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.block-link:hover {
+    box-shadow: rgba(193, 152, 152, 0.59) 1px 1px 2px 2px;
+}
+
+/* TITLE */
+
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
