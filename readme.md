@@ -46,7 +46,7 @@ npm --version
 sudo apt install nginx # Отвечаем 'y'
 sudo nano /etc/nginx/sites-available/default 
 ```
-5. Поля server_name и location / {} изменить на ([полная конфигурация редиректов с www и https в тг]((https://atomb.ru))):
+5. Поля server_name и location / {} изменить на: [полная конфигурация редиректов с www и https в тг](https://t.me/atom_baytovich/17)
 
 ```ssh
 server_name домен.ru www.домен.ru; # Это будет соответствовать любому имени хоста
