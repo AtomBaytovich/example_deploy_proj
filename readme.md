@@ -60,8 +60,8 @@ certbot renew --dry-run  # это автообновление
 ```ssh
 sudo nano /etc/nginx/sites-available/default 
 ```
-1. Поля конфигурации полностью изменить на: [полная конфигурация редиректов с www и https в тг](https://t.me/atom_baytovich/17)
-2. Ctrl + X чтобы выйти, Ctrl + X чтобы сохранить и после нажать клавишу Enter. И перезагрузить Ngnix
+8. Поля конфигурации полностью изменить на: [полная конфигурация редиректов с www и https в тг](https://t.me/atom_baytovich/17)
+9. Ctrl + X чтобы выйти, Ctrl + X чтобы сохранить и после нажать клавишу Enter. И перезагрузить Ngnix
 ```ssh
 sudo service nginx restart
 ```
