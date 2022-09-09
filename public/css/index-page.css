@@ -33,7 +33,7 @@ html {
 body {
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
-    background: url(../img/7.jpg) no-repeat 50% fixed;
+    background: url(../img/server.jpg) no-repeat 50% fixed;
     background-size: cover !important;
     overflow: hidden;
 }

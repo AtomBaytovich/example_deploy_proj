@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    background: url(../img/server.jpg) no-repeat 50% fixed;
+    background-size: cover !important;
+    overflow: hidden;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    all: unset;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+/* закончились обнуляющие стили */
+
+a {
+    color: #fff;
+    /* text-decoration: ; */
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff !important;
+}
+
+.main {
+    max-width: 360px;
+    max-height: 500px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e1e1e66;
+    backdrop-filter: blur(30px);
+    box-shadow: #04040496 1px 1px 3px 2px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.main p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.form__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__main input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #04040496;
+    margin-bottom: 10px;
+    text-indent: 5px;
+}
+
+.form__main button {
+    width: 150px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #1e1e1e66;
+    height: 25px;
+    
+}
+
+.form__main .button {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.href {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="./css/config-page.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script> -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <img src='./img/deploy.png' alt='Deploy img'/>
+            <p>Быстрый генератор конфига Ngnix с ТГ канала <a href="https://t.me/atom_baytovich"> Atom Baytovich</a></p>
+            <form class="form__main" method="post">
+                <input type="text" name="domain" placeholder="Введи свой домен">
+                <div class="button">
+                    <button type="submit">
+                        Сгенерировать
+                    </button>
+                </div>
+            </form>
+            <a class="href" href="/" >На главную</a>
+        </div>
+    </div>
+    <!-- <script>
+        const form = document.querySelector('form');
+        const domainInput = document.querySelector('input[name="domain"]');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            axios.post('/config-ngnix', {
+                domain: domainInput.value
+            }).then(res => {
+                console.log(res.data)
+            }).catch(err => {
+                console.log(err)
+            })
+        })
+    </script> -->
+</body>
+
+</html>
